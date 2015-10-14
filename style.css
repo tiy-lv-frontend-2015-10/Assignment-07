@@ -1,0 +1,27 @@
+body {
+  background: #65665A;
+  text-align: center;
+}
+
+h3, .answer {
+  color: white;
+}
+
+button {
+  border-radius: .5em;
+  background: #6AC179;
+}
+
+.border {
+  background: #413D3D;
+  height: 500px;
+  margin: auto;
+}
+
+#anotherBorder {
+  border: solid 5px black;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  background: grey;
+}
