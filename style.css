@@ -1,0 +1,17 @@
+#addBtn{
+	background-color: red;
+}
+#subtractBtn{
+	background-color: blue;
+}
+#multiplyBtn{
+	background-color: green;
+}
+#divideBtn{
+	background-color: yellow;
+}
+
+#answer{
+	font-weight: bold;
+	font-size: 40px;
+}
