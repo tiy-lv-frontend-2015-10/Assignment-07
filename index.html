@@ -1,13 +1,36 @@
-<!-- Don't forget to fill in the missing stuff! -->
-<h3>Let's Do Some Math!</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Calculator</title>
+</head>
 
-<input type="text" id="num_one" />
-<br /><br />
-<input type="text" id="num_two" />
-<br /><br />
-<input type="submit" value="Calculate" id="calculateBtn" />
+<body>
+ <div id="container">
+  <h1>Let's Do Some Math!</h1>
 
-<div class="answer">
-  <br />
-  Answer: <span id="answer"></span>
+  <input id = "numA" class="textBoxes" type="textarea" size="10" maxlength="10"/>
+  <br /><br />
+  <input id="numB" class="textBoxes" type="text" type="textarea" size="10" maxlength="10" /> 
+  <br /><br />
+  
+  <button id="addBtn" class="buttonStyle">Add</button>
+  <button id="subtractBtn" class="buttonStyle">Subtract</button>
+  <button id="multiplyBtn" class="buttonStyle">Multiply</button>
+  <button id="divideBtn" class="buttonStyle">Divide</button>
+  
+
+ <div class="answer">
+    <h2><span id="answer">Answer :</span></h2>
 </div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>    
+<script src="main.js"></script>  
+</div> 
+</body>
+</html>
+
+
+
