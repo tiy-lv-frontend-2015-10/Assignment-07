@@ -1,0 +1,39 @@
+h3 {
+	color:#453B4A;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+	
+}
+
+#num_one{
+	border: 5px solid rgb(223, 236, 230); 
+}
+
+#num_two{
+	border: 5px solid rgb(223, 236, 230);
+
+}
+button {
+	background-color:#99FFCC;
+	font-weight: bold;
+	width: 70px;
+	font-family: sans-serif;
+
+}
+
+.result{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	
+
+}
+
+#result{
+	font-weight: bold;
+	font-size: 18px;
+	color:#9642BF;
+	background-color: #DDD;
+    
+}
