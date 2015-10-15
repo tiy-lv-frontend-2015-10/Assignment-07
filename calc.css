@@ -1,0 +1,44 @@
+.container {
+	margin: 0 auto;
+	margin-top: 150px;
+	width: 315px;
+	height: 390px;
+	border-radius: 7px;
+	background: #198D8D;
+}
+
+html {
+	font-family: Verdana;
+}
+
+.key {
+	box-sizing: border-box;
+	display: inline-block;
+	padding-top: 27px;
+	margin-bottom: 3px;
+	width: 73px;
+	height: 73px;
+	text-align: center;
+	color: white;
+	border: 2px solid white;
+	border-radius: 8px;
+}
+.cl-display #display {
+	display: inline-block;
+	background: #9ED9B8;
+	padding-top: 3px;
+	margin-bottom: -25px;
+	height: 66px;
+	width: 228px;
+	border-radius: 6px;
+}
+div.key:hover {
+	background-color: #9ED9B8;
+}
+.keyrow {
+	margin-left: 3px;
+}
+.cl-display {
+	margin-left: 3px;
+	padding-top: 3px;
+}

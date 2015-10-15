@@ -2,19 +2,19 @@ function crunch(n1, n2, operation) {
 	var solution = 0;
 	switch (operation) {
 		case "plus":
-		solution = parseFloat(n1) + parseFloat(n2);
+		solution = parseFloat(n1, 10) + parseFloat(n2, 10);
 		break;
 
 		case 'minus':
-		solution = parseFloat(n1) - parseFloat(n2);
+		solution = parseFloat(n1, 10) - parseFloat(n2, 10);
 		break;
 
 		case "times":
-		solution = parseFloat(n1) * parseFloat(n2);
+		solution = parseFloat(n1, 10) * parseFloat(n2, 10);
 		break;
 
 		case "over":
-		solution = parseFloat(n1) / parseFloat(n2);
+		solution = parseFloat(n1, 10) / parseFloat(n2, 10);
 		break;
 
 		default:

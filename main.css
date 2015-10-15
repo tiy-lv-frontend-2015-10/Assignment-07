@@ -1,8 +1,19 @@
+body {
+	margin-top: -20px;
+	width: 100%;
+	height: 2000px;
+	background-image: url("images/binding_light_@2X.png");
+	
+}
+
+
 #container {
+	/*margin-top: 50px;*/
 	width: 510px;
 	margin: 0 auto;
 }
 h3 {
+	margin-top: 50px;
 	text-align: center;
 	font-size: 1.8rem;
 }
