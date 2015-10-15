@@ -19,7 +19,10 @@ $(document).ready(function(){
 	//3. get value input num_two should get innerHTML 		
 	//3.1 combine two inputs by whatever the user wants to calculate by 
 		
+	
+		//3.3 pass *number(value)* to input nume_one(numbers here)
 
+ 		// pass answer to answer id
 	$("#addBtn").click(function (cal_answer) {
 		var numInput_1 = $("#num_one").val();
 		var numInput_2 = $("#num_two").val();
@@ -48,9 +51,6 @@ $(document).ready(function(){
 
 
 
-		//3.3 pass *number(value)* to input nume_one(numbers here)
-
- 		// pass answer to answer id
 
 
 });
