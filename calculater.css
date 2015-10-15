@@ -1,0 +1,58 @@
+h3{font-family: Arial;
+position: relative;
+margin-left: 200px;
+color: grey;
+}
+
+#num_one{position: relative;
+margin-left: 200px;
+	width: 100px;
+	height: 20px;}
+
+#num_two{position: relative;
+margin-left: 200px;
+	width: 100px;
+	height: 20px;}
+
+div{background-color: black;
+width:600px;
+height:300px;}
+
+
+#calculateBtn1{position: relative;
+margin-left: 200px;
+width: 100px;
+	height: 30px;}
+
+#calculateBtn2{position: relative;
+margin-left: 200px;
+width: 100px;
+	height: 30px;}
+
+#calculateBtn3{position: relative;
+margin-left: 200px;
+width: 100px;
+	height: 30px;}
+
+#calculateBtn4{position: relative;
+margin-left: 200px;
+width: 100px;
+	height: 30px;}
+
+#answer{position: relative;
+margin-left: 150px; color:grey; 
+font-family: Arial;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
