@@ -1,13 +1,37 @@
-<!-- Don't forget to fill in the missing stuff! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 07 - Mychelle Blake</title>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+
 <h3>Let's Do Some Math!</h3>
 
-<input type="text" id="num_one" />
-<br /><br />
-<input type="text" id="num_two" />
-<br /><br />
-<input type="submit" value="Calculate" id="calculateBtn" />
+	<div id="calculator"
+		<label>Enter first number here:&nbsp<input type="text" id="num_one" /></label>
+			<br /><br />
+		<label>Enter second number here:&nbsp<input type="text" id="num_two" /></label>
+			<br /><br />
+
+		<table>
+			<tr>
+				<td id="add"><input id="add" type="submit" value="Add"/></td>
+				<td id="subtract"><input id="add" type="submit" value="Subtract"/></td>
+				<td id="multiply"><input id="add" type="submit" value="Multiply"/></td>
+				<td id="divide"><input id="add" type="submit" value="Divide"/></td>
+			</tr>
+		</table>
+		<br />
+	</div>
 
 <div class="answer">
   <br />
   Answer: <span id="answer"></span>
 </div>
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
