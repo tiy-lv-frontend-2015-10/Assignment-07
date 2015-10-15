@@ -66,3 +66,4 @@ Taking what you have learned, create the below image in HTML/CSS and add the fun
 ## Additional Resources
 
 * [Understanding the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+* [Google](http://www.google.com)
