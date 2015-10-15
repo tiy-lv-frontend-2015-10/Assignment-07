@@ -3,23 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-
+	<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
-	<h3>Let's Do Some Math!</h3>
-	<input type="text" id="num_1" />
-<br /><br />
-<input type="text" id="num_2" />
-<br /><br />
-<button id="add">Add</button>
-<button id="subtract">Subtract</button>
-<button id="multiply">Multiply</button>
-<button id="divide">Divide</button>
+	
+<div id="container">
+		
+	<h2>Calc-You-Later!</h2>
+	<div class="answerDiv">
+		<span id="answer">Answer: </span>
+	</div>
 
-<div class="answer">
-  <br />
-  Answer: <span id="answer"></span>
-</div>
+	<div id="inputDiv">
+		<input type="text" id="num_1" placeholder="Number 1" />
+
+		<div class="clearfix"></div>
+		
+		<input type="text" id="num_2" placeholder="Number 2" />
+	</div>
+
+	<div id="buttonDiv">
+		<button id="add">+</button>
+		<button id="subtract">-</button>
+		<button id="multiply">x</button>
+		<button id="divide">/</button>
+	</div>
+	
+
+ </div>
 
 
 

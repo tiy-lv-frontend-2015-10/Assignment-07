@@ -1,0 +1,99 @@
+body {
+	background-color: #333333;
+}
+#container {
+	margin:0 auto;
+	background-color: black;
+	border-radius: 20px;
+	width:260px;
+	padding-bottom: 28px;
+	
+}
+
+h2 {
+	color:#fff;
+	text-align: center;
+	padding-bottom: 1px;
+	position: relative;
+	padding-top: 25px;
+}
+
+
+#inputDiv {
+	position: relative;
+	margin:auto;
+	width:131px;
+}
+
+.answerDiv {
+	position: relative;
+	background-color: #396600;
+	width:162px;
+	height:42px;
+	border:2px solid #666666;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#answer {
+	position: relative;
+	top:12px;
+	font-weight: bold;
+}
+
+
+
+
+.clearfix {
+	content:"";
+	clear:both;
+	display: block;
+}
+
+input {
+	margin-bottom: 8px;
+	width: 158px;
+	height:30px;
+	outline:none;
+}
+
+#inputDiv {
+	width:164px;
+}
+
+button {
+	width:75px;
+	height:40px;
+	text-align: center;
+	outline:none;
+}
+#buttonDiv {
+	width:174px;
+	margin: auto;
+	margin-bottom:10px;
+}
+
+#buttonDiv button{
+	margin:5px;
+}
+#add {
+	background-color:#666666;
+	font-size: 25px;
+
+}
+
+#subtract {
+	background-color:#666666;
+	font-size: 25px;
+}
+
+#multiply {
+	background-color:#666666;
+	font-size: 25px;
+}
+
+#divide {
+	background-color:#666666;
+	font-size: 25px;
+}
+
