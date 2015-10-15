@@ -1,0 +1,41 @@
+#container {
+	width: 510px;
+	margin: 0 auto;
+}
+h3 {
+	text-align: center;
+	font-size: 1.8rem;
+}
+#ops {
+	padding-top: 15px;
+}
+#ops label {
+	font-size: 1.2rem;
+	margin-right: 10px;
+}
+.text-field {
+	width: inherit;
+	height: 40px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-size: 1.3rem;
+}
+
+#calculateBtn {
+	margin-top: -30px;
+	width: 520px;
+	height: 45px;
+	margin-right: -10px;
+	font-size: 1.4rem;
+	color: white;
+	border-radius: 8px;
+	background: blue;
+}
+.answer {
+	font-size: 1.5rem;
+}
+#answer span {
+	font-size: 1.5rem;
+	color: green;
+}
