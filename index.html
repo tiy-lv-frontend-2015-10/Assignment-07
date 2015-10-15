@@ -1,13 +1,49 @@
-<!-- Don't forget to fill in the missing stuff! -->
-<h3>Let's Do Some Math!</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arithmetype</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+<div id="bkg">
+  <div id="container">
+    <h3>Let's Do Some Crunches!</h3>
 
-<input type="text" id="num_one" />
-<br /><br />
-<input type="text" id="num_two" />
-<br /><br />
-<input type="submit" value="Calculate" id="calculateBtn" />
+      <input type="text" class="text-field" id="num_one" placeholder="Enter a number..."/>
+      <br /><br />
 
-<div class="answer">
-  <br />
-  Answer: <span id="answer"></span>
+      <div id="ops">
+        <input type="radio" name="operator" id='plus' value="plus" checked />
+        <label for="plus"> + (plus)</label>
+        <input type="radio" name="operator" id='minus' value="minus"/>
+        <label for="minus"> - (minus)</label>
+        <input type="radio" name="operator" id='times' value="times"/>
+        <label for="times"> * (multiplication)</label>
+        <input type="radio" name="operator" id='over' value="over"/>
+        <label for="over"> / (divided by)</label>
+      </div><br /><br />
+
+      <input type="text" class="text-field" id="num_two" placeholder="Enter another number..."/>
+      <br /><br />
+            <br /><br />
+      <input type="submit" value="Crunch it!" id="calculateBtn" />
+
+      <div class="answer">
+        <br />
+        Answer: <span id="answer"></span>
+      </div>
+      <br /><br /><br />
+      <p>
+        Yes, you can use decimals if you like! (but don't type any letters, or you may accidentally launch a nuke)
+      </p>
+
+      <a href="https://notewrangler.github.io/Assignment-07/calculator.html">(click here for a picture of a calculator with light-up buttons)</a>
+
+  </div>
 </div>
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
