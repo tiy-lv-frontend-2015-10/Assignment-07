@@ -1,0 +1,43 @@
+#container {
+	width: 800px;
+	margin:auto;
+	background: black;
+	border: 5px dashed gray;
+}
+
+h3 {
+	font-family: 'papyrus';
+	font-size: 35px;
+	padding-left: 250px;
+	color: blue;
+}
+
+.input {
+	padding-left: 335px;
+	margin-bottom: 20px;
+}
+
+input {
+	padding: 5px 20px 5px 20px;
+}
+
+button {
+	font-size: 20px;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid red;
+	background: pink;
+	padding: 5px;
+}
+
+.buttons {
+	margin-left: 270px;
+	margin-bottom: 10px;
+}
+
+.answer {
+	font-family: 'papyrus';
+	font-size: 22px;
+	border: 2px solid black;
+	background: white;
+}
+

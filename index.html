@@ -1,13 +1,31 @@
-<!-- Don't forget to fill in the missing stuff! -->
-<h3>Let's Do Some Math!</h3>
-
-<input type="text" id="num_one" />
-<br /><br />
-<input type="text" id="num_two" />
-<br /><br />
-<input type="submit" value="Calculate" id="calculateBtn" />
-
-<div class="answer">
-  <br />
-  Answer: <span id="answer"></span>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Let's Do Some Math</title>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+	<div id="container">
+		<h3>Let's Do Some Math!</h3>
+		<div class="input">
+			<input type="text" id="num_one" placeholder="Number 1" />
+			<br /><br />
+			<input type="text" id="num_two" placeholder="Number 2" />
+			<br /><br />
+		</div>
+		<div class="buttons">
+			<button id="add">Add</button>
+			<button id="sub">Subtract</button>
+			<button id="multi">Multiply</button>
+			<button id="divide">Divide</button>
+		</div>
+		<div class="answer">
+		  <br />
+		Answer:<span id="answer"></span>
+		</div>
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</div>
+</body>
+</html>
