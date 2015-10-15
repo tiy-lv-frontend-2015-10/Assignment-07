@@ -1,0 +1,62 @@
+body {
+	background-color: #A9F5F2;
+	margin: 0 auto;
+	font-family: "Tahoma", "sans-serif";
+	font-size: 16px;
+	font-color: green;
+}
+
+h3 {
+	text-align: center;
+	font-color: red;
+}
+
+#calculator {
+	margin: 0 auto;
+	padding: 10px 5px 0px 5px;
+	border: 1px solid black;
+	width: 340px;
+	height: 130px;
+}
+
+
+table {
+	border: 1px solid blue; 
+	background-color: #3A01DF;
+	text-align: center;
+	width: 340px;
+	margin: 0 auto;
+}
+
+table tr {
+	height: 25px;
+}
+
+#add, #subtract, #multiply, #divide {
+	color: #3A01DF;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #CEF6F5;
+	border: none;
+} 
+
+#add:hover, #subtract:hover, #multiply:hover, #divide:hover {
+	color: #CEF6F5;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #3A01DF;
+	border: none;
+} 
+
+.answer {
+	margin: 0 auto;
+	padding: 0px 0px 0px 5px;
+	border: 1px solid black;
+	width: 345px;
+	height: 50px;
+	font-style: italic;
+	vertical-align: middle;
+	font-weight: bold;
+
+
+}
