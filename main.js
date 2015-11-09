@@ -17,6 +17,10 @@ $(document).ready(function(){
 		
 		$("#answer").append("/");
 	});
+	$('#dot').on("click",function() {
+		
+		$("#answer").append(".");
+	});
 
 	$('#clear').on("click",function() {
 		
