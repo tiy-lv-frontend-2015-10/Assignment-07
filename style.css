@@ -74,6 +74,9 @@ input {
 	font-size: 18px;
 
 }
+.operator {
+	background-color: #85C07B;
+}
 .number {
 	color:#fff;
 	font-size: 20px;
