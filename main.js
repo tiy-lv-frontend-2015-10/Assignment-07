@@ -45,6 +45,7 @@ $(document).ready(function(){
 
 		};
 	
+
 	$("#0").on("click",function(){
 		$("#answer").append(0);
 	
