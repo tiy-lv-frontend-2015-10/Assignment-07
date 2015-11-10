@@ -31,17 +31,23 @@ $(document).ready(function(){
 		
 		sum();
 	});
+	
+	
+	
+	var answer= $("#answer").html()
+
 	function sum() {
 			var ans = eval($("#answer").html());
-			$("#answer").html(ans)
+			if(!isFinite(ans)) {
+				ans="Undefined"
+			}
+			$("#answer").html(ans);
+
 		};
-		
 	
-	$("#")
 	$("#0").on("click",function(){
 		$("#answer").append(0);
-
-
+	
 	});
 	$("#1").on("click",function(){
 		$("#answer").append(1);
